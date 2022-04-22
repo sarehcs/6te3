@@ -1,0 +1,30 @@
+{
+  "name": "6te3",
+  "description": "部署在Heroku上",
+  "keywords": [
+    "v2ray VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "97d2ccca-c9dd-4d8f-b6c9-dc874ef365fa",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/97d2c8w",
+      "required": true
+    }
+  },
+  "website": "https://github.com/sarehcs/6te3",
+  "repository": "https://github.com/sarehcs/6te3",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
